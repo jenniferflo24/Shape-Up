@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ShapeUp</title>
+    <link rel="stylesheet" href="shape.css">
+</head>
+<h3>Add a Shape!</h3>
+<body>
+    <form id='container'>
+        <lable for ='wid'>Width:</lable>
+        <input id='wid' type='number'>
+        <lable for='hgt'>Height:</lable>
+        <input id="hgt" type='number'>
+        <button onclick='add()' type='button'>Add Rectangle</button>
+    
+    </form>
+    <form id='container'>
+        <lable for ='length'>Side Length:</lable>
+        <input id='length' type='number'>
+        <button onclick='add()' type='button'>Add Square</button>
+    
+    </form>
+    <form id='container'>
+        <lable for ='radius'>Radius:</lable>
+        <input id='radius' type='number'>
+        <button onclick='add()' type='button'>Add Circle</button>
+    
+    </form>
+    <form id='container'>
+        <lable for ='hgt'>Height:</lable>
+        <input id='length' type='number'>
+        <button onclick='add()' type='button'>Add Triangle
+        </button>
+    
+    </form>
+    <div id="box">
+        <canvas id="box" width=600 height=600></canvas>
+        </div>
+    <!-- <input type="button" value="rectangle">
+    <input type="button" value="square">
+    <input type="button" value="circle">
+    <input type="button" value="Isoceles Right Triangle">
+     -->
+    <script src="shape.js"></script>
+</body>
+</html>
